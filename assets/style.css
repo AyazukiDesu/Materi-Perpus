@@ -1,0 +1,24 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f0f2f5; color: #333; } /* font, warna latar, dan warna teks halaman */
+nav { display: flex; align-items: center; background: #1e3a5f; padding: 12px 24px; } /* bar menu: item disusun sejajar dalam satu baris */
+.logo { color: white; font-weight: bold; font-size: 18px; margin-right: 30px; } /* nama aplikasi di kiri menu */
+nav a { color: #cfd8e3; margin-right: 18px; text-decoration: none; } /* tautan menu berwarna abu terang tanpa garis bawah */
+nav a:hover { color: white; } /* tautan menjadi putih saat disorot mouse */
+.kanan { margin-left: auto; color: white; } /* dorong bagian nama & role ke sisi kanan */
+.kanan a { margin: 0 0 0 14px; color: #feb2b2; } /* tautan Keluar berwarna merah muda */
+.badge { padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: bold; text-transform: uppercase; margin-left: 6px; } /* label role berbentuk lencana bulat */
+.badge.operator { background: #f6ad55; color: #333; } /* lencana operator berwarna oranye */
+.badge.staf { background: #63b3ed; color: #1a365d; } /* lencana staf berwarna biru */
+.badge.user { background: #68d391; color: #22543d; } /* lencana user berwarna hijau */
+.isi { max-width: 850px; margin: 24px auto; background: white; padding: 24px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); } /* kotak isi berwarna putih dengan sudut membulat dan bayangan */
+h1 { margin-top: 0; color: #1e3a5f; } /* judul halaman berwarna biru tua */
+table { width: 100%; border-collapse: collapse; margin: 16px 0; } /* tabel selebar kotak isi */
+th, td { padding: 10px; text-align: left; border-bottom: 1px solid #e2e8f0; } /* jarak dan garis bawah tiap sel */
+th { background: #1e3a5f; color: white; } /* baris judul kolom berwarna biru tua */
+tr:nth-child(even) td { background: #f7f9fc; } /* baris genap berwarna abu sangat muda */
+tr:hover td { background: #eaf1fb; } /* baris berubah warna saat disorot mouse */
+input, select { padding: 8px; margin: 4px 0; border: 1px solid #ccc; border-radius: 4px; width: 260px; } /* kolom isian rapi dengan sudut membulat */
+button, .tombol { padding: 7px 14px; background: #2b6cb0; color: white; border: 0; border-radius: 4px; font-size: 14px; text-decoration: none; cursor: pointer; } /* gaya tombol biru */
+button:hover, .tombol:hover { opacity: 0.85; } /* tombol sedikit pudar saat disorot mouse */
+.merah { background: #c53030; } /* tombol hapus berwarna merah */
+.error { background: #fed7d7; color: #9b2c2c; padding: 10px; border-radius: 4px; } /* kotak pesan error berwarna merah muda */
+.login { max-width: 320px; margin: 30px auto; } /* kotak login di tengah halaman */
